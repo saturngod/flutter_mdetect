@@ -5,7 +5,7 @@ Idea is base on the mdetect android by the Myat Min Soe. It's using same logic f
 If you want to detect current phone default font is zawgyi or unicode, you can use mdetect.
 
 ```dart
-import 'package:mdetect/mdetect.dart'
+import 'package:flutter_mdetect/flutter_mdetect.dart'
 ```
 
 ```dart

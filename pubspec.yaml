@@ -1,6 +1,6 @@
 name: flutter_mdetect
 description: Detect Zawgyi Or Unicode of the phone. Support for both android and iOS.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/saturngod/flutter_mdetect
 
 environment:

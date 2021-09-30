@@ -24,7 +24,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   rabbitx_converter: ^0.0.1
-  flutter_mdetect: ^0.0.3
+  flutter_mdetect: ^0.0.4
 
 dev_dependencies:
   flutter_test:

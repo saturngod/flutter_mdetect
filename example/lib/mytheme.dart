@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mdetect/flutter_mdetect.dart';
-import 'package:rabbit_converter/rabbit_converter.dart';
+import 'package:rabbitx_converter/rabbitx_converter.dart';
 
 class MyTheme {
   MyTheme._();
@@ -8,12 +8,11 @@ class MyTheme {
   static const defaultColor = Colors.red;
 
   static String mmText(String text) {
-    if(MDetect.isUnicode()) {
+    if (MDetect.isUnicode()) {
       print("UNICODE");
-    }
-    else {
+    } else {
       print("ZAWGYI");
     }
-    return MDetect.isUnicode() ? text : Rabbit.uni2zg(text);
+    return MDetect.isUnicode() ? text : RabbitxConverter.uni2zg(text);
   }
 }

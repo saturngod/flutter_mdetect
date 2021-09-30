@@ -1,4 +1,5 @@
 library flutter_mdetect;
+
 import 'package:flutter/material.dart';
 
 class MDetect {
